@@ -10,9 +10,9 @@ RNA sequences are extracted from defined regions relative to the start codon: -3
 RNAfold must be installed from [ViennaRNA Package 2](https://www.tbi.univie.ac.at/RNA/)
 
 ## Usage
-
+```
 python3 MFE_expression.py [accession_id]
-
+```
 ## Inputs
 - accession_id: An NCBI Nucleotide database accession number
   
