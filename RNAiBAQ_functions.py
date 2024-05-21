@@ -6,7 +6,7 @@ import seaborn as sns
 
 #take in NCBI accesion number for a nucleotide record and download the genbank file
 def download_genbank(accession):
-    Entrez.email = "bhua@gritstone.com" #  enter your email here
+    Entrez.email = "YOUR EMAIL HERE" #  enter your email here
 
     handle=Entrez.efetch(db='nucleotide',id=accession,rettype='gbwithparts',retmode='text')
     f = open(str(accession)+'.gb', 'w') # save to disk
