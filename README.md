@@ -1,5 +1,5 @@
 # MFE_expression
-Python script to calculate minimum free energy (MFE) of RNA secondary structures at the start codons of every gene within a NCBI nucleotide sequence and compare to relative protein expression in HEK-293 cells. iBAQ mass spectrometry HEK-293 data was sourced from [Cambray G, Guimaraes JC, and Arkin AP. Nat. Biotechnol. 2018.](https://www.nature.com/articles/nbt.4238).
+Python script to calculate minimum free energy (MFE) of RNA secondary structures at the start codons of every gene within a NCBI nucleotide sequence and compare to relative protein expression in HEK-293 cells. iBAQ mass spectrometry HEK-293 data was sourced from [Geiger et al. Mol Cell. 2012.](https://www.mcponline.org/article/S1535-9476(20)30500-4/fulltext)
 RNA sequences are extracted from defined regions relative to the start codon: -30:+30, +1:+60, and +31:+90 and the MFE of each sequence is calculated using RNAfold
 
 ![STR3030_scatter](https://github.com/blhua/MFE_expression/assets/66856632/56f7109b-b739-45c1-a322-0492cfc0488c)
